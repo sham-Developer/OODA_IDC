@@ -1,0 +1,818 @@
+/* .bgcolorblue{
+    background-color: #DCEEF2 !important;
+} */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    z-index: 10000000000000;
+  }
+  .modal-overlay img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+/******************************************************** page 1  **************************************************/
+#mainpage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    min-width: 550px;
+    min-height: 690px;
+    width: 600px;
+    height: 690px;
+    z-index: -1; 
+    transform: translate(-50%, -50%); 
+    object-fit: cover;
+}
+
+.logo {
+    float: right;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.logo img {
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+.logo h1 {
+    width: 40%;
+    font-family: "Anaheim";
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ideal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 90%;
+    letter-spacing: 1px;
+}
+.ideal span{
+    font-family: "Grand Hotel";
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    padding-right: 20px;
+    color: #FFFFFF;
+    margin-top: 5%;
+}
+
+
+/******************************************************** page 2  **************************************************/
+.aboutmain img {
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    margin-top: -26px;
+}
+.aboutmain {
+    width: 100%;
+    height: auto;
+}
+
+.aboutmain h2 {
+    font-family: "Oswald";
+    font-style: "Semibold";
+    font-size: 32px;
+    color: #27BED3;
+    margin: auto;
+    padding: 5px;
+    width: 90%;
+    height: auto;
+}
+
+.aboutmain p {
+    font-family: "Anaheim";
+    font-style: "mixed";
+    font-size: 16px;
+    color: #303030;
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    font-weight: 600;
+}
+
+.facult {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    padding: 5px;
+}
+
+.facult1 {
+    flex: 0 0 30%;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+.facult1 .aricon1 {
+    width: 5%;
+    margin-left: 23%;
+    margin-top: 8%;
+    position: absolute;
+    z-index: 9999999999;
+}
+.certificate2 .aricon2 {
+    width: 5%;
+    margin-left: -5%;
+    margin-top: 13%;
+    position: absolute;
+    z-index: 9999999999;
+}
+.facult2 {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.facult2 h2 {
+    font-family: "Oswald";
+    font-style: "Semibold";
+    font-size: 24px;
+    color: #28BE64;
+    margin: auto;
+    padding: 5px;
+}
+
+.facult2 ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.facult2 ul li {
+    font-family: "Anaheim";
+    font-style: "medium";
+    font-size: 16px;
+    color: #303030;
+    margin: auto;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    margin-bottom: 5px;
+}
+
+.facult2 ul li img {
+    margin-right: 3px;
+    vertical-align: top;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-right: 10px;
+
+}
+
+.icon img {
+    width: 15px;
+    height: auto;
+}
+
+.certficate {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 45%;
+}
+
+.certificate1 {
+    width: 60%;
+    text-align: left;
+}
+
+.certificate1 h2 {
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 24px;
+    color: #28BE64;
+    margin: auto;
+    padding: 5px;
+}
+
+.certificate1 ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.certificate1 ul li {
+    font-family: "Anaheim";
+    font-size: 16px;
+    color: #303030;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    margin-bottom: 5px;
+
+}
+
+.certificate1 ul li img {
+    margin-right: 8px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.certificate2 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.certificate2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 37%;
+    margin-left: 20%;
+}
+
+
+.cloudimg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.cloudimg img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+.model model-viewer {
+    margin-left: -15%;
+    margin-top: 10%;
+    height: 20%;
+}
+.mountain1 img{
+    margin-top: 30%;
+}
+.pageno1 {
+    margin-top: -40%;
+    margin-left: 5%;
+    z-index: 99999;
+    position: absolute;
+}
+.pageno1 img{
+    z-index: 99999;
+}
+.pageno1 span{
+    font-weight: 800;
+    color: #000000;
+    z-index: 99999;
+    font-family: "Anaheim";
+}
+.model2 model-viewer {
+    margin-left: -18%;
+    margin-top: 15%;
+    height: 20%;
+}
+.mountain2 img {
+    margin-top: 35%;
+    margin-left: 10%;
+}
+/******************************************************** page 3  **************************************************/
+
+.backtopleft {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.backtopright {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-left: 79%;
+    margin-top: 25%;
+}
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.brand h2 {
+    width: 65%;
+    height: auto;
+    font-family: "Oswald";
+    font-style: "bold";
+    font-size: 26px;
+    color: #27BED3;
+    margin: 0;
+    text-align: left;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.brand p {
+    width: 80%;
+    height: auto;
+    font-family: "Anaheim";
+    font-style: "bold";
+    font-size: 16px;
+    color: #373737;
+    font-weight: 700;
+}
+
+.brand p span {
+    font-family: "Anaheim";
+    font-style: "bold";
+    font-size: 16px;
+    color: #28BE64;
+    font-weight: 600;
+    margin: 0;
+    text-align: right;
+}
+
+.why {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.why h3 {
+    font-family: "Oswald";
+    font-style: "Semibold";
+    font-size: 24px;
+    color: #28BE64;
+    margin: auto;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.why ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.why ul li {
+    font-family: "Anaheim";
+    font-size: 16px;
+    color: #303030;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.why ul li img {
+    margin-right: 8px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.icon1 {
+    margin-right: 10px;
+
+}
+
+.icon1 img {
+    width: 15px;
+    height: auto;
+}
+
+.benefits {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.benefits h3 {
+    font-family: "Oswald";
+    font-style: "Semibold";
+    font-size: 24px;
+    color: #28BE64;
+    margin: auto;
+    padding: 5px;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.benefits ul li {
+    font-family: "Anaheim";
+    font-size: 16px;
+    color: #303030;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.benefits ul li img {
+    margin-right: 8px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.brandmainimg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.brandmainimg img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -3%;
+}
+.aricon3,
+.aricon4 {
+    position: absolute; 
+    width: 10%; 
+    height: auto; 
+}
+
+.aricon3 {
+    width: 5%;
+    top: 20%;
+    left: 17%;
+}
+
+.aricon4 {
+    width: 5%;
+    top: 20%;
+    right: 43%;
+}
+.pageno2 {
+    margin-top: -7%;
+    margin-left: 80%;
+    z-index: 99999;
+    position: absolute;
+}
+.pageno2 img {
+    width: 45%;
+}
+.pageno2 span{
+    font-weight: 800;
+    color: #000000;
+    z-index: 99999;
+    font-family: "Anaheim";
+}
+.model3 model-viewer {
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 59%;
+}
+.model4 model-viewer {
+    margin-left: 38%;
+    margin-top: 10%;
+    height: 59%;
+}
+.mountain3 img {
+    margin-top: -6.5%;
+    width: 100%;
+    height: auto;
+}
+/******************************************************** page 4  *************************************************/
+.clients {
+    margin-bottom: 5px;
+}
+
+.clients h3 {
+    font-family: "Oswald";
+    font-style: "Semibold";
+    font-size: 26px;
+    color: #27BED3;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+}
+
+.certificate-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+    margin-left: 3.5%;
+}
+
+.certi1 {
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.certi1 img {
+    width: 80%;
+    height: auto;
+}
+
+.certi1 span {
+    display: block;
+    margin-top: 5px;
+    font-family: "Anaheim";
+    font-style: "Semibold";
+    font-size: 10px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.certi1 span b {
+    color: #28BE64;
+}
+
+.clients1 {
+    margin-bottom: 20px;
+}
+
+.clients1 h3 {
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: "Oswald";
+    font-style: "Semibold";
+    font-size: 26px;
+    color: #27BED3;
+    padding: 5px;
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+.clients1 img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+}
+
+.footer-image-container {
+    position: relative;
+    width: 100%;
+}
+
+.footer img {
+    width: 138%;
+    height: auto;
+}
+
+.footer-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    font-family: "Anaheim";
+    font-style: "Bold";
+    font-size: 18px;
+    color: #297EF8;
+    width: 100%;
+    height: auto;
+}
+
+.footer-text h4 {
+    margin-top: -6%;
+    margin-bottom: 3%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    padding: 10px;
+    padding-top: 0px;
+    margin-left: 10%;
+    gap: 15px;
+}
+.footer-content a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.footer-content a:hover {
+    text-decoration: none; 
+}
+.address-left .phone{
+    margin-left: -8%;
+}
+.address-left span {
+    font-family: "Anaheim";
+    font-style: "Bold";
+    font-size: 12px;
+    color: #303030;
+    font-weight: 600;
+    width: 20%;
+}
+
+.email-logos-right span {
+    font-family: "Anaheim";
+    font-style: "Bold";
+    font-size: 12px;
+    color: #303030;
+    font-weight: 600;
+    width: 20%;
+}
+
+.logos {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    margin-left: -1%;
+}
+
+.logos img {
+    width: 12%;
+    height: auto;
+    margin-top: 10%;
+    gap: 10px;
+}
+.logos .youtubelogo {
+    width: 15%;
+    height: auto;
+    margin-left: 5%;
+}
+.logos .weblogo {
+    margin-left: -33%;
+}
+.image-grid .isocertificate{
+    width: 20%;
+    height: auto;
+}
+.separater {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: -22%;
+    position: absolute;
+    padding: 10px;
+}
+
+.separater .line-img {
+    width: 100%;
+    height: auto;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 30%;
+    margin-top:0px;
+    gap: 30px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.image-grid img {
+    width: 30%;
+    height: auto;
+}
+
+.image-grid img:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 80%;
+}
+
+.designedby {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: -1%;
+    margin-left: 75%;
+}
+.designedby a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.designedby span {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Anaheim";
+    font-style: "Regular";
+    color: #000000;
+}
+
+.designedby span img {
+    margin-left: 2px; 
+    width: 25%;
+    height: auto;
+}
+
+.modal12 {
+    display: none; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999999;
+    backdrop-filter: blur(8px); 
+    background-color: transparent; 
+}
+
+
+  .modal-content12 {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .close12 {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+  model-viewer::part(progress-bar) {
+    display: none; 
+  }

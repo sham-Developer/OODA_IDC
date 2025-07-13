@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OODA Digital Catalogue</title>
+    <link rel="icon" href="../logo.svg">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        #content {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #content object {
+            width: 100%;
+            height: 100%;
+            border: none;
+            min-height: 100vh;
+            background-color: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content"></div>
+</body>
+<script>
+    function load_home() {
+        var isMobile = window.innerWidth <= 1115; 
+        var folderPath = isMobile ? 'For Mobile, Tab/index.html' : 'For Desc/index.html'; 
+
+        document.getElementById("content").innerHTML =
+            '<object type="text/html" data="' + folderPath + '" style="width:100%; height:600px;"></object>';
+    }
+    window.onload = load_home;
+</script>
+
+</html>
